@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Streamlit / local state
+.streamlit/secrets.toml
+.env
+
+# Data staged locally rather than committed. The app expects
+# Data/general/entity_golden_records.jsonl, which is built outside this repo.
+Data/general/
+Data/fed/
